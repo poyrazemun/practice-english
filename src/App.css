@@ -1,0 +1,255 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 2rem;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-main {
+  padding: 2rem;
+}
+
+.tense-sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.tense-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.tense-card:hover {
+  transform: translateY(-5px);
+}
+
+.practice-button {
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  padding: 0.8rem 1.5rem;
+  color: #282c34;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.practice-button:hover {
+  background-color: #4fa8c7;
+}
+
+.exercise-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.question-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.option-button {
+  padding: 1rem;
+  border: 2px solid #61dafb;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.option-button:hover {
+  background-color: #61dafb;
+  color: white;
+}
+
+.fill-in-blank {
+  margin-top: 1rem;
+}
+
+.fill-in-blank input {
+  padding: 0.5rem;
+  margin-right: 1rem;
+  border: 2px solid #61dafb;
+  border-radius: 5px;
+}
+
+.explanation {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.progress-bar {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.exercise-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.home-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.8rem 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.home-button:hover {
+  background-color: #d32f2f;
+}
+
+.option-button.correct {
+  background-color: #4caf50;
+  color: white;
+  border-color: #4caf50;
+}
+
+.option-button.incorrect {
+  background-color: #f44336;
+  color: white;
+  border-color: #f44336;
+}
+
+.explanation.correct {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.reading-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.reading-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.story-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.story-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 1.5rem 0;
+  text-align: left;
+}
+
+.highlighted-word {
+  color: #2196f3;
+  font-weight: bold;
+  cursor: help;
+}
+
+.instructions {
+  background-color: #f5f5f5;
+  padding: 1.5rem;
+  border-radius: 5px;
+  margin: 1.5rem 0;
+  text-align: left;
+}
+
+.instructions ol {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.instructions li {
+  margin: 0.5rem 0;
+}
+
+.highlighted-words {
+  margin: 1.5rem 0;
+  text-align: left;
+}
+
+.highlighted-words ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.highlighted-words li {
+  background-color: #e3f2fd;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  color: #1976d2;
+}
+
+.next-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.8rem 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: 1rem;
+}
+
+.next-button:hover {
+  background-color: #388e3c;
+}
