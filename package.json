@@ -1,8 +1,8 @@
 {
-  "name": "learn-english",
+  "name": "practice-english",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://poyrazemun.github.io/learn-english",
+  "homepage": "https://poyrazemun.github.io/practice-english",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",
