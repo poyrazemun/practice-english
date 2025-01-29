@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/learn-english/static/css/main.81404888.css",
-    "main.js": "/learn-english/static/js/main.a4119211.js",
-    "static/js/151.91991846.chunk.js": "/learn-english/static/js/151.91991846.chunk.js",
-    "index.html": "/learn-english/index.html",
-    "main.81404888.css.map": "/learn-english/static/css/main.81404888.css.map",
-    "main.a4119211.js.map": "/learn-english/static/js/main.a4119211.js.map",
-    "151.91991846.chunk.js.map": "/learn-english/static/js/151.91991846.chunk.js.map"
+    "main.css": "/practice-english/static/css/main.81404888.css",
+    "main.js": "/practice-english/static/js/main.ac73cbfe.js",
+    "static/js/151.91991846.chunk.js": "/practice-english/static/js/151.91991846.chunk.js",
+    "index.html": "/practice-english/index.html",
+    "main.81404888.css.map": "/practice-english/static/css/main.81404888.css.map",
+    "main.ac73cbfe.js.map": "/practice-english/static/js/main.ac73cbfe.js.map",
+    "151.91991846.chunk.js.map": "/practice-english/static/js/151.91991846.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.81404888.css",
-    "static/js/main.a4119211.js"
+    "static/js/main.ac73cbfe.js"
   ]
 }
